@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA6E5FE3-598B-36B3-8A17-814E1FA02BB4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>glfw</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glfw.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glfw.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_GLFW_USE_CONFIG_H;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src;E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\context.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\init.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\input.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\monitor.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\vulkan.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\window.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_init.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_joystick.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_monitor.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_time.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_thread.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_window.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\wgl_context.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\egl_context.c" />
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\osmesa_context.c" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\internal.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\mappings.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\glfw\src\glfw_config.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_platform.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\win32_joystick.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\wgl_context.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\egl_context.h" />
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glfw\src\osmesa_context.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

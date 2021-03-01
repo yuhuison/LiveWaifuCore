@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.20/Modules/FindOpenGL.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glew/build/cmake/CMakeLists.txt
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glew/build/cmake/cmake_uninstall.cmake.in
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glew/glew.pc.in

@@ -1,0 +1,14 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/Demo/proj.win.cmake/build/proj_msvc2019_x86_md/CMakeFiles/CMakeTmp
+
+Run Build Command(s):d:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dc150.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.6.0+5ff7b0c9e
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.26.28806 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc150.dir\Debug\\" /Fd"cmTC_dc150.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\Demo\proj.win.cmake\build\proj_msvc2019_x86_md\CMakeFiles\CMakeTmp\cmTC_dc150.vcxproj]
+
+
+

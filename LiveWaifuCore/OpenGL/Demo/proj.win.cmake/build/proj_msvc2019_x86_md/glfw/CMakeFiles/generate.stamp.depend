@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.20/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.20/Modules/CMakeDependentOption.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.c.in
+D:/Program Files/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glfw/CMakeLists.txt
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glfw/src/glfw3.pc.in
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glfw/src/glfw3Config.cmake.in
+E:/2/CubismSdkForNative-4-r.2/LiveWaifuCore/OpenGL/thirdParty/glfw/src/glfw_config.h.in

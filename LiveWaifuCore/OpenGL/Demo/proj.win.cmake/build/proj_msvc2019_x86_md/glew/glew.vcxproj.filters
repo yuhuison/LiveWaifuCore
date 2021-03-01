@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glew\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glew\include\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glew\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glew\include\GL\glxew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\2\CubismSdkForNative-4-r.2\LiveWaifuCore\OpenGL\thirdParty\glew\build\glew.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FC6061E6-F4D6-3CD4-A145-D7E8764255CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2F5F220A-A5E1-30BE-AF60-7DD4FAAC8348}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
